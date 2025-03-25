@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload & Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Food Suraksha Model</h1>
+        <h2 style="color:green" >Check kitchen compliance status</h2>
+        <br>
+        <label for="imageInput" class="custom-file-upload">
+            Choose Image
+            <input type="file" id="imageInput" accept="image/*" />
+        </label>
+
+        <button id="uploadButton">Upload & Predict</button>
+
+        <div class="preview-container">
+            <img id="imagePreview" class="image-preview" />
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
